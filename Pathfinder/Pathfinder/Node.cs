@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Pathfinder
 {
@@ -36,16 +37,28 @@ namespace Pathfinder
             set { pathRelations = value; }
         }
 
-        public bool PathToNode(int A, int B)                //Method to determine if an AI can pass from node A to node B (A -> B != B -> A) 
+        public bool PathToNode(int node)                //Method to determine if an AI can pass from this node to another node 
         {
             try
             {
-
+                if (node <= pathRelations.Count || node < 0)
+                {
+                    if (pathRelations[node] == 1)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                throw new Exception("Node value is out of range for this map");
             }
             catch (Exception e)
             {
-
+                MessageBox.Show("Something's not right: ", e.Message);
             }
+            return false;
         }
     }
 }
