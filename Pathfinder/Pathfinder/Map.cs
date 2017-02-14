@@ -69,6 +69,7 @@ namespace Pathfinder
                             {
                                 MessageBox.Show("Something's not right: " + e.Message);
                             }
+                            mapNodes.Add(newNode);
                         }
                     }
                     

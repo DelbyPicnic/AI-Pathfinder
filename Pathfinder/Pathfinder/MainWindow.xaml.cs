@@ -61,6 +61,16 @@ namespace Pathfinder
                 if (sysMap.MapNodes.Count > 0)
                 {
                     //Nodes have been created.
+                    for (int index = 0; index < sysMap.MapNodes.Count; index++)
+                    {
+                        Ellipse mapPoint = new Ellipse();
+                        mapPoint.Stroke = System.Windows.Media.Brushes.Red;
+                        mapPoint.Width = 5;
+                        mapPoint.Height = 5;
+                        mapPoint.Fill = System.Windows.Media.Brushes.Red;
+                        mapPoint.Margin = new Thickness(sysMap.MapNodes[index].PosX * 10, sysMap.MapNodes[index].PosY * 10, 0, 0);
+                        MapViewer.Children.Add(mapPoint);
+                    }
                 }
                 else
                 {
@@ -72,5 +82,11 @@ namespace Pathfinder
             {
                 MessageBox.Show("Something's not right: " + e.Message);
             }
+        }
+
+        private void btnFindPath_Click(object sender, RoutedEventArgs e)
+        {
+            drawMap();
+        }
     }
 }

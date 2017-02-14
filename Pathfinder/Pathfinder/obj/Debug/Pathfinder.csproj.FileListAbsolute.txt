@@ -40,3 +40,17 @@ C:\Users\40202556\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\MainWind
 C:\Users\40202556\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.g.resources
 C:\Users\40202556\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.Properties.Resources.resources
 C:\Users\40202556\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.csproj.GenerateResource.Cache
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\bin\Debug\Pathfinder.exe.config
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.exe
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.pdb
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.csprojResolveAssemblyReference.cache
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\MainWindow.g.cs
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\App.g.cs
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder_MarkupCompile.cache
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder_MarkupCompile.lref
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\bin\Debug\Pathfinder.exe
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\bin\Debug\Pathfinder.pdb
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\MainWindow.baml
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.g.resources
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.Properties.Resources.resources
+C:\Users\gordo\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.csproj.GenerateResource.Cache
