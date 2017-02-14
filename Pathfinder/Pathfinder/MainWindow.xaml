@@ -8,9 +8,10 @@
         Title="Pathfinder" Height="429.546" Width="725.852" ResizeMode="NoResize">
     <Grid>
         <Canvas x:Name="MapViewer" Margin="10,10,159,10" Background="#FFEAEAEA"/>
-        <Button x:Name="btnLoadFile" Content="Load Map" Margin="566,11,10,339"/>
+        <Button x:Name="btnLoadFile" Content="Load Map" Margin="566,11,10,339" Click="btnLoadFile_Click"/>
         <Button x:Name="btnFindPath" Content="Find Path" Margin="566,68,10,281"/>
         <Button x:Name="btnClear" Content="Clear Map" Margin="566,338,10,10"/>
+        <Label x:Name="lblInfo" Content="No Map Loaded." Margin="566,126,10,69" Background="#FFE8E8E8"/>
 
     </Grid>
 </Window>

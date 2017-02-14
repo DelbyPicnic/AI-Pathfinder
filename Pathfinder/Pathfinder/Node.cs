@@ -37,7 +37,7 @@ namespace Pathfinder
             set { pathRelations = value; }
         }
 
-        public bool PathToNode(int node)                //Method to determine if an AI can pass from this node to another node 
+        public bool PathToNode(int node)                    //Method to determine if an AI can pass from this node to another node 
         {
             try
             {

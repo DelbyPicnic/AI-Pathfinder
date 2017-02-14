@@ -15,3 +15,17 @@ C:\Users\40202556\Desktop\AI Coursework\Pathfinder\Pathfinder\obj\Debug\Pathfind
 C:\Users\40202556\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\bin\Debug\Pathfinder.exe.config
 C:\Users\40202556\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.exe
 C:\Users\40202556\Desktop\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\bin\Debug\Pathfinder.exe.config
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.exe
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\bin\Debug\Pathfinder.exe
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\bin\Debug\Pathfinder.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.csprojResolveAssemblyReference.cache
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\MainWindow.g.cs
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\App.g.cs
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder_MarkupCompile.cache
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder_MarkupCompile.lref
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\MainWindow.baml
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.g.resources
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.Properties.Resources.resources
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40202556\AI-Pathfinder\Pathfinder\Pathfinder\obj\Debug\Pathfinder.csproj.GenerateResource.Cache

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,37 @@ namespace Pathfinder
     /// </summary>
     public partial class MainWindow : Window
     {
+        //Define global instance of Map class
+        Map sysMap;
+
         public MainWindow()
         {
             InitializeComponent();
+            sysMap = new Map();
+        }
+
+        private void btnLoadFile_Click(object sender, RoutedEventArgs e)
+        {
+            //Open the file selector window
+            string targetFilePath;
+            OpenFileDialog file = new OpenFileDialog();
+            try
+            {
+                //Show the file selector window to the user
+                Nullable<bool> lfDialogResult = file.ShowDialog();
+                
+                if (lfDialogResult == true)
+                {
+                    //Load the file if the user selects OK
+                    targetFilePath = file.FileName;
+                    lblInfo.Content = "Current Map: \n" + System.IO.Path.GetFileName(targetFilePath);
+                    sysMap.LoadFile(targetFilePath);
+                }
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show("Something's not right: " + err.Message);
+            }
         }
     }
 }
