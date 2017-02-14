@@ -53,5 +53,24 @@ namespace Pathfinder
                 MessageBox.Show("Something's not right: " + err.Message);
             }
         }
+
+        private void drawMap()
+        {
+            try
+            {
+                if (sysMap.MapNodes.Count > 0)
+                {
+                    //Nodes have been created.
+                }
+                else
+                {
+                    //Nodes haven't been created.
+                    throw new Exception("There are no defined nodes to plot on the map.");
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Something's not right: " + e.Message);
+            }
     }
 }
