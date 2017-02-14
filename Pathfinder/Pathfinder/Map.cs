@@ -12,6 +12,7 @@ namespace Pathfinder
     {
         List<Node> mapNodes = new List<Node>();
 
+        //Function to load data from file
         public void LoadFile(string path)
         {
             
@@ -81,6 +82,12 @@ namespace Pathfinder
             {
                 MessageBox.Show("Something's not right: " + e.Message);
             }
+        }
+
+        //Modifier to provide access to nodes from MainWindow class
+        public List<Node> MapNodes
+        {
+            get { return mapNodes; }
         }
     }
 }
