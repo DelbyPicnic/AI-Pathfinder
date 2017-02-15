@@ -68,7 +68,7 @@ namespace Pathfinder
                         mapPoint.Width = 5;
                         mapPoint.Height = 5;
                         mapPoint.Fill = System.Windows.Media.Brushes.Red;
-                        mapPoint.Margin = new Thickness(sysMap.MapNodes[index].PosX * 10, sysMap.MapNodes[index].PosY * 10, 0, 0);
+                        mapPoint.Margin = new Thickness(sysMap.MapNodes[index].PosX * 15, sysMap.MapNodes[index].PosY * 10, 0, 0);
                         MapViewer.Children.Add(mapPoint);
                     }
                 }
