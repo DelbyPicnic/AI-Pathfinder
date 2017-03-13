@@ -7,11 +7,13 @@
         mc:Ignorable="d"
         Title="Pathfinder" Height="429.546" Width="725.852" ResizeMode="NoResize">
     <Grid>
-        <Canvas x:Name="MapViewer" Margin="10,10,159,10" Background="#FFEAEAEA"/>
+        <Canvas x:Name="MapViewer" Margin="10,10,159,69" Background="#FFEAEAEA"/>
         <Button x:Name="btnLoadFile" Content="Load Map" Margin="566,11,10,339" Click="btnLoadFile_Click"/>
         <Button x:Name="btnFindPath" Content="Find Path" Margin="566,68,10,281" Click="btnFindPath_Click"/>
-        <Button x:Name="btnClear" Content="Clear Map" Margin="566,338,10,10"/>
-        <Label x:Name="lblInfo" Content="No Map Loaded." Margin="566,126,10,69" Background="#FFE8E8E8"/>
+        <Button x:Name="btnClear" Content="Clear Map" Margin="566,338,10,10" Click="btnClear_Click"/>
+        <Label x:Name="lblInfo" Content="No Map Loaded." Margin="566,182,10,69" Background="#FFE8E8E8"/>
+        <Button x:Name="btnShowProcess" Content="Show Process" Margin="566,125,10,224" Click="btnShowProcess_Click" IsEnabled="False"/>
+        <Button x:Name="btnFwd" Content="&gt;" Margin="10,338,656,10" FontSize="16" FontWeight="Bold" IsEnabled="False" Click="btnFwd_Click"/>
 
     </Grid>
 </Window>

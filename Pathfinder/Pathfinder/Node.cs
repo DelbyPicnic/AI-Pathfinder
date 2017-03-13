@@ -9,15 +9,29 @@ namespace Pathfinder
 {
     class Node
     {
-        private int nodeValue;                              //Store the indexed value for this node
+        private int nodeid;                                 //Store the indexed value for this node
+        private double distance = double.MaxValue;          //Store the distance to this node - Init as max double value
+        private Node prevNode;                              //Store the previous node to this one in the route
         private int posX, posY;                             //Store the X & Y coordinates for this node
         private List<int> pathRelations = new List<int>();  //Store the navigation relationship between this node and every other node
 
 
-        public int NodeValue                                //Modifier method for setting and retrieving the NodeValue
+        public int NodeID                                   //Modifier method for setting and retrieving the NodeValue
         {
-            get { return nodeValue; }
-            set { nodeValue = value; }
+            get { return nodeid; }
+            set { nodeid = value; }
+        }
+
+        public double Distance                              //Modifier method for setting and retrieving the distance to this node
+        {
+            get { return distance; }
+            set { distance = value; }
+        }
+
+        public Node Previous
+        {
+            get { return prevNode; }
+            set { prevNode = value; }
         }
 
         public int PosX                                     //Modifier method for setting and retrieving the X Coordinate
@@ -35,30 +49,6 @@ namespace Pathfinder
         {
             get { return pathRelations; }
             set { pathRelations = value; }
-        }
-
-        public bool PathToNode(int node)                    //Method to determine if an AI can pass from this node to another node 
-        {
-            try
-            {
-                if (node <= pathRelations.Count || node < 0)
-                {
-                    if (pathRelations[node] == 1)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
-                    }
-                }
-                throw new Exception("Node value is out of range for this map");
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show("Something's not right: ", e.Message);
-            }
-            return false;
         }
     }
 }
